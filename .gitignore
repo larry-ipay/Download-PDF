@@ -1,0 +1,9 @@
+.idea
+vendor
+.env
+.lock
+.github
+.zip
+storage/upload
+storage/cache
+storage/exports
