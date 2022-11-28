@@ -28,14 +28,7 @@ return function (Container $container) {
                 'dbName' => env('DB_DATABASE'),
                 'dbUser' => 'root',
                 'dbPass' => ''
-            ],
-            'database2' => [
-                'driver' => 'mysql',
-                'host' => 'https://admin-backend.ipayprojects.com',
-                'dbName' => env('DEFAULT_DB_DATABASE',''),
-                'dbUser' => env('DEFAULT_DB_USERNAME',''),
-                'dbPass' => env('DEFAULT_DB_PASSWORD','')
-            ],
+            ]
 
         ];
     });
